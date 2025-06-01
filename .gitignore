@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# infra
+*.js
+!jest.config.js
+*.d.ts
+
+# infra
+node_modules
